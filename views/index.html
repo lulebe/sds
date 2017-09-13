@@ -1,5 +1,17 @@
 
 <h1>Server is online</h1>
 
+{{#addedServer}}
+<h3>You successfully added a new Server!</h3>
+{{/addedServer}}
+
 running on PORT: <strong>{{port}}</strong><br>
-free disk space: <strong>{{free}} GiB</strong>
+free disk space on this Server: <strong>{{free}} GiB</strong>
+
+<form action="/webui/addServer" method="POST">
+  <label for="address">IP Address & Port</label><br>
+  <input type="text" id="address" name="address" placeholder="1.2.3.4:8213"><br>
+  <label for="pw">Password</label><br>
+  <input type="password" id="pw" name="password" placeholder="************"><br>
+  <input type="submit" value="add Server">
+</form>
