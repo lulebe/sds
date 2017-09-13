@@ -1,0 +1,36 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  background: lightcoral;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 24px 64px 24px;
+  border-top: 4px solid lightcoral;
+  border-bottom: 4px solid lightcoral;
+  background: #f6f6f6;
+  min-height: 100vh;
+}
+
+.copyright-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  font-size: 0.8rem;
+}
