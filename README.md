@@ -13,4 +13,4 @@
 
 1. make sure to have nodejs >=8.x and npm installed
 2. `npm install` inside the project folder to install the node modules
-3. `VAR1=VAL1 VAR2=VAL2 node app.js` where `VARX` is the name of an  env variable and `VALX` it's value.
+3. `VAR1=VAL1 VAR2=VAL2 node .` where `VARX` is the name of an  env variable and `VALX` it's value.
